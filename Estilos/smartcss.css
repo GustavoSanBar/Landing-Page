@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+.body, html{
+    font-size: 100%;
+    background-image: linear-gradient(to bottom, #000000, #360032);
+    height: 100%;
+}
+
+.cabecalho-menu-imagem{
+    width: 100vw;
+}
+
+.cabecalho-menu{     
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.cabecalho-menu-item{
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color: white(255, 255, 255);
+}
+
+.conteudo{
+    border-top: 0.04px solid #FFF2E7;
+}
